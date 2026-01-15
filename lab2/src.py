@@ -24,7 +24,6 @@ def load_image_or_random(path="image.jpeg", h=256, w=256):
 
 
 def show(img, title=""):
-    # По заданию можно использовать plt.imshow, для простоты добавим title
     plt.imshow(img)
     if title:
         plt.title(title)
